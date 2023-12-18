@@ -1,0 +1,78 @@
+<style>
+    body {
+        background-image: url('https://media.istockphoto.com/id/1192403701/photo/residential-housing-background.jpg?s=1024x1024&w=is&k=20&c=F0b-l2QTN1Gmhwjz5XMGL8zJ-8dtoB4iNB108w6G6Us=');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; /* Align content to the top */
+        color: black; /* Set text color to black */
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+    }
+
+    form {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        max-width: 400px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px; /* Add some top margin to the form */
+    }
+
+    h1, h2 {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: black; /* Set text color to black */
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        color: black; /* Set text color to black */
+    }
+
+    label {
+        color: white;
+        font-weight: bold;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    iframe {
+        width: 100%;
+        height: 80vh; /* Ensure the map occupies at least 80% of the viewport height */
+        margin-top: 20px; /* Add some top margin to the map */
+    }
+</style>
