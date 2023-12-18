@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a45345ccad7184c77b33b01b9460dd8d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a45345ccad7184c77b33b01b9460dd8d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a45345ccad7184c77b33b01b9460dd8d = L.map(
+                "map_a45345ccad7184c77b33b01b9460dd8d",
+                {
+                    center: [33.9731, -118.2479],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f1e6696de9d078340c9c44da6a394f35 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f1e6696de9d078340c9c44da6a394f35.addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var marker_d8523a2099e6c7e8fc2c48dfb9ec8c71 = L.marker(
+                [37.4563, -122.2002],
+                {}
+            ).addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var icon_43255d432269ff46694786c4e83f2d12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d8523a2099e6c7e8fc2c48dfb9ec8c71.setIcon(icon_43255d432269ff46694786c4e83f2d12);
+        
+    
+        var popup_b304c1e420fcf7bd52aa0f5da6d789cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd951f90c4ab56c56a21cc1db4ba24bb = $(`<div id="html_dd951f90c4ab56c56a21cc1db4ba24bb" style="width: 100.0%; height: 100.0%;">Zipcode: 94027, City: Atherton, Average Price: $3077204.0</div>`)[0];
+                popup_b304c1e420fcf7bd52aa0f5da6d789cc.setContent(html_dd951f90c4ab56c56a21cc1db4ba24bb);
+            
+        
+
+        marker_d8523a2099e6c7e8fc2c48dfb9ec8c71.bindPopup(popup_b304c1e420fcf7bd52aa0f5da6d789cc)
+        ;
+
+        
+    
+    
+            var marker_853b11c4b61d4f8d0739775d4552d13f = L.marker(
+                [33.6062, -117.8931],
+                {}
+            ).addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var icon_ae01b6e9d8e923f0e024dc5f6f4b2100 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_853b11c4b61d4f8d0739775d4552d13f.setIcon(icon_ae01b6e9d8e923f0e024dc5f6f4b2100);
+        
+    
+        var popup_2a935c33d086ea1ac26fae611a527844 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6259c28039250c7dd054c2be74d25d22 = $(`<div id="html_6259c28039250c7dd054c2be74d25d22" style="width: 100.0%; height: 100.0%;">Zipcode: 92662, City: Newport Beach, Average Price: $2216390.0</div>`)[0];
+                popup_2a935c33d086ea1ac26fae611a527844.setContent(html_6259c28039250c7dd054c2be74d25d22);
+            
+        
+
+        marker_853b11c4b61d4f8d0739775d4552d13f.bindPopup(popup_2a935c33d086ea1ac26fae611a527844)
+        ;
+
+        
+    
+    
+            var marker_0ab6ccafcb05947d9801a50a0d3b467e = L.marker(
+                [37.3702, -122.2182],
+                {}
+            ).addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var icon_d927846316e330425051a92d776b5622 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0ab6ccafcb05947d9801a50a0d3b467e.setIcon(icon_d927846316e330425051a92d776b5622);
+        
+    
+        var popup_0b43c44e1a19ec9ac76af4f826086b85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d74e9dc19305d243686827017f67082 = $(`<div id="html_2d74e9dc19305d243686827017f67082" style="width: 100.0%; height: 100.0%;">Zipcode: 94028, City: Portola Valley, Average Price: $1956657.0</div>`)[0];
+                popup_0b43c44e1a19ec9ac76af4f826086b85.setContent(html_2d74e9dc19305d243686827017f67082);
+            
+        
+
+        marker_0ab6ccafcb05947d9801a50a0d3b467e.bindPopup(popup_0b43c44e1a19ec9ac76af4f826086b85)
+        ;
+
+        
+    
+    
+            var marker_a5d388cb1d5a49dc9219ed6f2c2f67ca = L.marker(
+                [34.4378, -119.6159],
+                {}
+            ).addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var icon_ad9aba6c285544ab91b52efe720fb56a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a5d388cb1d5a49dc9219ed6f2c2f67ca.setIcon(icon_ad9aba6c285544ab91b52efe720fb56a);
+        
+    
+        var popup_06193819b8cc4d9a496431af437c9484 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c88dbdbacc08938378049a54eb1bab92 = $(`<div id="html_c88dbdbacc08938378049a54eb1bab92" style="width: 100.0%; height: 100.0%;">Zipcode: 93108, City: Santa Barbara, Average Price: $1947265.0</div>`)[0];
+                popup_06193819b8cc4d9a496431af437c9484.setContent(html_c88dbdbacc08938378049a54eb1bab92);
+            
+        
+
+        marker_a5d388cb1d5a49dc9219ed6f2c2f67ca.bindPopup(popup_06193819b8cc4d9a496431af437c9484)
+        ;
+
+        
+    
+    
+            var marker_9c26846275d5be9f715dd7687c03c5b5 = L.marker(
+                [37.9624, -122.555],
+                {}
+            ).addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var icon_a55f88965eabc5964432340a55390c2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c26846275d5be9f715dd7687c03c5b5.setIcon(icon_a55f88965eabc5964432340a55390c2b);
+        
+    
+        var popup_60427f8cafe818dd2762e7f8efef5368 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1ec9d02dbd67a5a99cea1028ee2ba6e = $(`<div id="html_d1ec9d02dbd67a5a99cea1028ee2ba6e" style="width: 100.0%; height: 100.0%;">Zipcode: 94957, City: Ross, Average Price: $1924131.0</div>`)[0];
+                popup_60427f8cafe818dd2762e7f8efef5368.setContent(html_d1ec9d02dbd67a5a99cea1028ee2ba6e);
+            
+        
+
+        marker_9c26846275d5be9f715dd7687c03c5b5.bindPopup(popup_60427f8cafe818dd2762e7f8efef5368)
+        ;
+
+        
+    
+    
+            var marker_77d6f9ec12f64058889d7402b62fc258 = L.marker(
+                [35.0478, -118.1735],
+                {}
+            ).addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var icon_fbd080460bc1ca519a66dce5cae5fab8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_77d6f9ec12f64058889d7402b62fc258.setIcon(icon_fbd080460bc1ca519a66dce5cae5fab8);
+        
+    
+        var popup_fb8eb51c1ae74b1872ed319e90d1c616 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_361e10802f0117a860542c4caeb63a4b = $(`<div id="html_361e10802f0117a860542c4caeb63a4b" style="width: 100.0%; height: 100.0%;">Zipcode: 93501, City: Mojave, Average Price: $60759.0</div>`)[0];
+                popup_fb8eb51c1ae74b1872ed319e90d1c616.setContent(html_361e10802f0117a860542c4caeb63a4b);
+            
+        
+
+        marker_77d6f9ec12f64058889d7402b62fc258.bindPopup(popup_fb8eb51c1ae74b1872ed319e90d1c616)
+        ;
+
+        
+    
+    
+            var marker_e1a8df318002e90b76ad650167df8ba8 = L.marker(
+                [37.6382, -120.9005],
+                {}
+            ).addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var icon_832c87c6bc15a69d35aa9b567e864c34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1a8df318002e90b76ad650167df8ba8.setIcon(icon_832c87c6bc15a69d35aa9b567e864c34);
+        
+    
+        var popup_d01c663653993570bc659078d8fa160b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a90dee926076893bb8d9ac7ce1c4659 = $(`<div id="html_1a90dee926076893bb8d9ac7ce1c4659" style="width: 100.0%; height: 100.0%;">Zipcode: 95319, City: Empire, Average Price: $64954.0</div>`)[0];
+                popup_d01c663653993570bc659078d8fa160b.setContent(html_1a90dee926076893bb8d9ac7ce1c4659);
+            
+        
+
+        marker_e1a8df318002e90b76ad650167df8ba8.bindPopup(popup_d01c663653993570bc659078d8fa160b)
+        ;
+
+        
+    
+    
+            var marker_e40fb95227211b12ebfe02bd213060c5 = L.marker(
+                [34.3103, -116.5241],
+                {}
+            ).addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var icon_a540a9e1a6bc409ce797db7862ee7597 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e40fb95227211b12ebfe02bd213060c5.setIcon(icon_a540a9e1a6bc409ce797db7862ee7597);
+        
+    
+        var popup_15e9b5057faaabd08e76defbebbac9b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bff5cabb6652a70b3655fa9cfcd6e73 = $(`<div id="html_7bff5cabb6652a70b3655fa9cfcd6e73" style="width: 100.0%; height: 100.0%;">Zipcode: 92285, City: Landers, Average Price: $66330.0</div>`)[0];
+                popup_15e9b5057faaabd08e76defbebbac9b2.setContent(html_7bff5cabb6652a70b3655fa9cfcd6e73);
+            
+        
+
+        marker_e40fb95227211b12ebfe02bd213060c5.bindPopup(popup_15e9b5057faaabd08e76defbebbac9b2)
+        ;
+
+        
+    
+    
+            var marker_24cd46a02f187382778227919df00fec = L.marker(
+                [34.905, -116.8203],
+                {}
+            ).addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var icon_7760491f912f9e1acbbbd9ae653cb12e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_24cd46a02f187382778227919df00fec.setIcon(icon_7760491f912f9e1acbbbd9ae653cb12e);
+        
+    
+        var popup_d7138aa476cb1af6b13a8deca33e9656 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04d83646ed5411a4ea26761181bf22ae = $(`<div id="html_04d83646ed5411a4ea26761181bf22ae" style="width: 100.0%; height: 100.0%;">Zipcode: 92398, City: Yermo, Average Price: $66767.0</div>`)[0];
+                popup_d7138aa476cb1af6b13a8deca33e9656.setContent(html_04d83646ed5411a4ea26761181bf22ae);
+            
+        
+
+        marker_24cd46a02f187382778227919df00fec.bindPopup(popup_d7138aa476cb1af6b13a8deca33e9656)
+        ;
+
+        
+    
+    
+            var marker_841f6797746b01aba7d284ee12071c01 = L.marker(
+                [34.1105, -117.2898],
+                {}
+            ).addTo(map_a45345ccad7184c77b33b01b9460dd8d);
+        
+    
+            var icon_d4dec6ae074f1174816e0dbc400b4a78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_841f6797746b01aba7d284ee12071c01.setIcon(icon_d4dec6ae074f1174816e0dbc400b4a78);
+        
+    
+        var popup_3f98ffe54671e2287404f309fdc45c74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b49e75e230369e99a888a15dbce4fff = $(`<div id="html_5b49e75e230369e99a888a15dbce4fff" style="width: 100.0%; height: 100.0%;">Zipcode: 92401, City: San Bernardino, Average Price: $66961.0</div>`)[0];
+                popup_3f98ffe54671e2287404f309fdc45c74.setContent(html_5b49e75e230369e99a888a15dbce4fff);
+            
+        
+
+        marker_841f6797746b01aba7d284ee12071c01.bindPopup(popup_3f98ffe54671e2287404f309fdc45c74)
+        ;
+
+        
+    
+</script>
+</html>
