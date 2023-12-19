@@ -22,11 +22,11 @@ Sample images of how the Project's front end looks like with the interactive map
 
 
 **Prediction Page**
-<img width="924" alt="image" src="https://github.com/vishnuvardhan-jadava/Dwello-Real-estate-Price-Prediction/assets/83878754/4c51dbc1-c42d-4ca6-9d52-c6cd539644dc">
+<img width="924" alt="image" src="https://github.com/vishnuvardhan-jadava/Dwello-Real-estate-Price-Prediction/assets/83878754/4c51dbc1-c42d-4ca6-9d52-c6cd539644dc">**Analysis Page**
 
 
 
-**Analysis Page**
+
 <img width="827" alt="image" src="https://github.com/vishnuvardhan-jadava/Dwello-Real-estate-Price-Prediction/assets/83878754/7e6454d5-9587-4520-b4af-fdc72a5e3aee">
 
 
