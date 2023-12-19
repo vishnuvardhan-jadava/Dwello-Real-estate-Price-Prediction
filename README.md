@@ -33,4 +33,6 @@ Sample images of how the Project's front end looks like.
 <img width="767" alt="image" src="https://github.com/vishnuvardhan-jadava/Dwello-Real-estate-Price-Prediction/assets/83878754/954b59dc-d49c-4ae2-9a92-9bfb3fe3c7ce">
 
 
+<img width="731" alt="image" src="https://github.com/vishnuvardhan-jadava/Dwello-Real-estate-Price-Prediction/assets/83878754/c268dfde-34a5-42ae-b541-3df665d0e5b2">
+
 
