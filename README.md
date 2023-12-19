@@ -16,14 +16,14 @@ The dataset contains features like:
 
 **Technologies used**: Python(pandas, numpy, matplotlib, scikit-learn, flask-ngrok, folium, pyngrok==4.1.1, geopy, pgeocode), HTML
 
-Sample images of how the Project's front end looks like.
+Sample images of how the Project's front end looks like with the interactive maps.
 
 <img width="954" alt="image" src="https://github.com/vishnuvardhan-jadava/Dwello-Real-estate-Price-Prediction/assets/83878754/98e9712c-2599-41ba-92e0-62bd7d929183">
 
-
+**Prediction Page**
 <img width="924" alt="image" src="https://github.com/vishnuvardhan-jadava/Dwello-Real-estate-Price-Prediction/assets/83878754/4c51dbc1-c42d-4ca6-9d52-c6cd539644dc">
 
-
+**Analysis Page**
 <img width="827" alt="image" src="https://github.com/vishnuvardhan-jadava/Dwello-Real-estate-Price-Prediction/assets/83878754/7e6454d5-9587-4520-b4af-fdc72a5e3aee">
 
 
