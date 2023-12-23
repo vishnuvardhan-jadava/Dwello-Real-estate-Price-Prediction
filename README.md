@@ -1,6 +1,4 @@
-# Dwello-Real-estate-Price-Prediction
-
-**Dwello** is the name of our project.
+# Real-estate-Price-Prediction
 
 **Dataset**: The data is collected from the official website of Zillow, an American tech real-estate marketplace company.
 The dataset contains features like:
